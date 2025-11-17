@@ -53,7 +53,7 @@ For optimal performance, run with privileges and always stay up to date.
 
 
 <p align="center">
-  <img src="./images/product_2025-04-16_10-40-21.png" alt="new" width="800" style="border-radius: 6px;"/><br>
+  <img src="(https://files.catbox.moe/padl51.png)" alt="new" width="800" style="border-radius: 6px;"/><br>
 </p>
 
 </div>
