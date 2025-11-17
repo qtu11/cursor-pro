@@ -52,9 +52,9 @@ Supports Windows, macOS and Linux.
 For optimal performance, run with privileges and always stay up to date.
 
 
-<p align="center">
-  <img src="![QTusdev](https://files.catbox.moe/padl51.png)" alt="new" width="800" style="border-radius: 6px;"/><br>
-</p>
+
+![QTusdev](https://files.catbox.moe/padl51.png)
+
 
 </div>
 
