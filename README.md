@@ -250,7 +250,7 @@ by the user.
         <img src="./images/provi-code.jpg" alt="buy_me_a_coffee" width="280"/><br>
       </td>
       <td>
-        <img src="./images/paypal.png" alt="buy_me_a_coffee" width="280"/><br>
+        <img src="./images/paypal.jpg" alt="buy_me_a_coffee" width="280"/><br>
       </td>
     </tr>
   </table>
