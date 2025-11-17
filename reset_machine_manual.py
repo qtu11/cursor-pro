@@ -365,10 +365,10 @@ def modify_workbench_js(file_path: str, translator=None) -> bool:
 
             patterns = {
                 # Pattern thay the nut chung
-                r'B(k,D(Ln,{title:"Upgrade to Pro",size:"small",get codicon(){return A.rocket},get onClick(){return t.pay}}),null)': r'B(k,D(Ln,{title:"qtusdev GitHub",size:"small",get codicon(){return A.github},get onClick(){return function(){window.open("https://github.com/qtusdev/cursor-pro","_blank")}}}),null)',
+                r'B(k,D(Ln,{title:"Upgrade to Pro",size:"small",get codicon(){return A.rocket},get onClick(){return t.pay}}),null)': r'B(k,D(Ln,{title:"qtusdev GitHub",size:"small",get codicon(){return A.github},get onClick(){return function(){window.open("https://github.com/qtu11/cursor-pro","_blank")}}}),null)',
                 
                 # Pattern thay the nut chung cho Windows/Linux/Mac
-                r'M(x,I(as,{title:"Upgrade to Pro",size:"small",get codicon(){return $.rocket},get onClick(){return t.pay}}),null)': r'M(x,I(as,{title:"qtusdev GitHub",size:"small",get codicon(){return $.rocket},get onClick(){return function(){window.open("https://github.com/qtusdev/cursor-pro","_blank")}}}),null)',
+                r'M(x,I(as,{title:"Upgrade to Pro",size:"small",get codicon(){return $.rocket},get onClick(){return t.pay}}),null)': r'M(x,I(as,{title:"qtusdev GitHub",size:"small",get codicon(){return $.rocket},get onClick(){return function(){window.open("https://github.com/qtu11/cursor-pro","_blank")}}}),null)',
                 
                 # Thay the Badge
                 r'<div>Pro Trial': r'<div>Pro',

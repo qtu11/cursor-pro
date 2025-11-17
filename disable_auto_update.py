@@ -265,8 +265,4 @@ def run(translator=None):
 
 if __name__ == "__main__":
     from main import translator as main_translator
-    run(main_translator) ress_enter') if translator else 'Press Enter to Continue...'}")
-
-if __name__ == "__main__":
-    from main import translator as main_translator
     run(main_translator) 

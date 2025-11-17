@@ -72,17 +72,14 @@ LOGO_TEXT = f"""{Fore.CYAN}
 
 DESCRIPTION_TEXT = f"""{Fore.YELLOW}
 Pro Version Activator v{version}{Fore.GREEN}
-Author: Pin Studios (qtusdev)"""
+Author: Qtusdev Studios (qtu11)"""
 
 CONTRIBUTORS_TEXT = f"""{Fore.BLUE}
 Contributors:
-BasaiCorp  aliensb  handwerk2016  Nigel1992
-UntaDotMy  RenjiYuusei  imbajin  ahmed98Osama
-bingoohuang  mALIk-sHAHId  MFaiqKhan  httpmerak
-muhammedfurkan plamkatawe Lucaszmv
+Nguyen Quang Tu
 """
 OTHER_INFO_TEXT = f"""{Fore.YELLOW}
-Github: https://github.com/qtusdev/cursor-pro{Fore.RED}
+Github: https://github.com/qtu11/cursor-pro{Fore.RED}
 Press 4 to change language | Nhan 4 de doi ngon ngu{Style.RESET_ALL}"""
 
 # center display LOGO and DESCRIPTION
