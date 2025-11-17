@@ -43,14 +43,18 @@ function Write-Styled {
 # Get version number function
 function Get-LatestVersion {
     try {
-        $latestRelease = Invoke-RestMethod -Uri "https://api.github.com/repos/qtu11/cursor-pro/releases/latest"
+        $apiUrl = "https://api.github.com/repos/qtu11/cursor-pro/releases/latest"
+        $latestRelease = Invoke-RestMethod -Uri $apiUrl
+        if (-not $latestRelease.assets) {
+            throw "Repository chưa có asset phát hành"
+        }
         return @{
             Version = $latestRelease.tag_name.TrimStart('v')
-            Assets = $latestRelease.assets
+            Assets  = $latestRelease.assets
         }
     } catch {
         Write-Styled $_.Exception.Message -Color $Theme.Error -Prefix "Error"
-        throw "Cannot get latest version"
+        throw "Repo chưa có release hoặc URL $apiUrl không tồn tại"
     }
 }
 
