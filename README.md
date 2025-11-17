@@ -13,7 +13,7 @@
 
 ---
 
-# ➤ Cursor Pro VIP
+# ➤ Cursor Pro 
 
 <div align="center">
 <p align="center">

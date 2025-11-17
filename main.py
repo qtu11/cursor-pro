@@ -541,7 +541,7 @@ def check_latest_version():
             try:
                 backup_headers = {
                     'Accept': 'application/json',
-                    'User-Agent': 'CursorFreeVIP-Updater'
+                    'User-Agent': 'CursorPro-Updater'
                 }
                 backup_response = requests.get(
                     "https://pinnumber.rr.nu/badges/release/qtu11/cursor-pro",

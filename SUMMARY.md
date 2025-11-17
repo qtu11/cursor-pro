@@ -120,5 +120,5 @@
 
 **Người thực hiện**: AI Assistant  
 **Ngày hoàn thành**: 2025  
-**Phiên bản tool**: Cursor Free VIP (qtusdev fork)
+**Phiên bản tool**: Cursor Pro (qtusdev fork)
 
