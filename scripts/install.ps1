@@ -43,7 +43,7 @@ function Write-Styled {
 # Get version number function
 function Get-LatestVersion {
     try {
-        $latestRelease = Invoke-RestMethod -Uri "https://api.github.com/repos/qtusdev/cursor-pro/releases/latest"
+        $latestRelease = Invoke-RestMethod -Uri "https://api.github.com/repos/qtu11/cursor-pro/releases/latest"
         return @{
             Version = $latestRelease.tag_name.TrimStart('v')
             Assets = $latestRelease.assets
