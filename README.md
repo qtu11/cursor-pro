@@ -247,7 +247,7 @@ by the user.
   <table>
     <tr>
       <td>
-        <img src="./images/provi-code.jpg" alt="buy_me_a_coffee" width="280"/><br>
+        <img src="./images/provi-qrcode.jpg" alt="buy_me_a_coffee" width="280"/><br>
       </td>
       <td>
         <img src="./images/paypal.jpg" alt="buy_me_a_coffee" width="280"/><br>
